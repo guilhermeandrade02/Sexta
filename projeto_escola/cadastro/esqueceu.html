@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esqueci minha senha</title>
+  </head>
+  <body>
+    <a href="/sexta/index.html">Home</a>
+
+    <center>
+      <h1>Esqueci minha senha</h1>
+
+      <form action="">
+        <p>Informe seu documento para identificação.</p>
+
+        <select name="doc">
+          <option value="1">E-mail</option>
+          <option value="2">CPF</option>
+          <option value="3">RG</option></select
+        ><br /><br />
+
+        <input type="text" placeholder="Informe seu documento" required /><br />
+
+        <p>Escolha um meio para receber o código de autenticação:</p>
+
+        <label for="">SMS:</label>
+        <input type="radio" name="autenticacao" value="sms" />
+        <label for="">E-mail:</label>
+        <input type="radio" name="autenticacao" value="email" /><br /><br />
+
+        <button type="submit">Continuar</button>
+      </form>
+    </center>
+  </body>
+</html>

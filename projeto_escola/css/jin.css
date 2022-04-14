@@ -1,0 +1,92 @@
+.sieg {
+  font-family: Comic Sans MS;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+}
+
+label {
+  font-size: 20px;
+}
+
+li {
+  padding: 10px;
+  display: inline;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+h4 {
+  font-family: Comic Sans MS;
+}
+
+h3 {
+  font-family: Comic Sans MS;
+}
+
+h1 {
+  font-family: Comic Sans MS;
+}
+
+button {
+  background-color: #3b3b3b;
+  border: none;
+  color: #ffffff;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Comic Sans MS;
+  padding: 10px;
+}
+
+body {
+  margin: 2rem;
+
+  background-image: url("/sexta/img/back.jpg");
+  background-position: center center;
+
+  /* A imagem de fundo não é lado a lado */
+  background-repeat: no - repeat;
+
+  /* A imagem de fundo é fixa na viewport para que não se mova quando
+  a altura do conteúdo é maior que a altura da imagem */
+  background-attachment: fixed;
+
+  /* Isso é o que faz com que a imagem de fundo seja redimensionada com base
+  no tamanho do container */
+  background-size: cover;
+
+  /* Define uma cor de fundo que será exibida
+  enquanto a imagem de fundo está carregando */
+  background-color: #464646;
+}
+
+.border {
+  border-radius: 1rem;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #c5c5c562;
+  border-radius: 1rem;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

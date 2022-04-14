@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/sexta/css/jin.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <a href="/sexta/index.html">Home</a>
+    <center>
+      <h1>Crie seu login!</h1>
+
+      <p>
+        Por meio dessa conta, você terá acesso ao portal e aplicativo acadêmico.
+        Informe abaixo seus dados.
+      </p>
+
+      <form action="">
+        <label for="">E-mail</label><br />
+        <input type="text" placeholder="E-mail" required /><br /><br />
+
+        <label for="">Nome</label><br />
+        <input type="text" placeholder="Nome" required /><br /><br />
+
+        <label for="">CPF</label><br />
+        <input
+          type="number"
+          placeholder="000.000.000-00"
+          required
+        /><br /><br />
+
+        <label for="">Senha</label><br />
+        <input
+          type="password"
+          placeholder="Senha"
+          id="typepass"
+          required
+        /><br /><br />
+
+        <input
+          type="password"
+          placeholder="Confirmar senha"
+          id="typepass"
+          required
+        /><br />
+
+        <input type="checkbox" onclick="Toggle()" />
+        <b>Mostrar a senha</b><br /><br />
+
+        <button type="submit">Entrar</button>
+      </form>
+      <br />
+    </center>
+
+    <script src="/sexta/js/jin.js"></script>
+  </body>
+</html>
